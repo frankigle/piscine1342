@@ -1,0 +1,43 @@
+body{
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+main{
+    
+    
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    color:  black;
+}
+p.gre{
+    color: grey;
+}
+.social{
+    width: 30px;
+    height: 30px;
+    
+}
+.fl{
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: auto;
+    width: 600px;
+
+}
+img{
+    height: 300px;
+    width: 600px;
+}
+button{
+    width: 100%;
+}

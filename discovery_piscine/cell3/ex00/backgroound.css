@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    display: grid;
+
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+}
+p{
+    color: aqua;
+    font-size: 3rem;
+    margin: 0;
+}
+.title{
+    text-align: center;
+}
+
+button{
+    background-color:rgb(255,255, 255);
+    border-radius: 100px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 30px;
+    padding: 20px;
+    width: 300px;
+}
+.color-card{
+    background-color: var(--bg);
+    height: 280px;
+    width: 280px;
+
+}
+.content{
+    margin-left: 42%;
+
+
+}
